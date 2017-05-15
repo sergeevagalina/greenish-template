@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+/*GENERAL STYLES*/
+.page-wrapper {
+	width: 960px;
+	margin: 50px auto 75px;
+}
+
+/*HEADER*/
+header {
+	overflow: hidden;
+}
+.logo {
+	width: 161px;
+	float: left;
+	margin: 30px 574px 30px 30px;
+}
+.hcontacts {
+	width: 135px;
+	float: left;
+	margin: 33px 30px;
+}
+.hcontacts li {
+	text-align: left;
+}
+.hcontacts li a {
+	color: #868686;
+	font: 12px Verdana sans-serif;
+	text-decoration: none;
+	padding-left: 26px;
+}
+.hcontacts li a:hover {
+	text-decoration: underline;
+}
+.phone {
+	background: url(../images/phone.png) no-repeat left center; 
+}
+.mail {
+	background: url(../images/mail.png) no-repeat left center;
+}
+
+/*NAVIGATION MENU*/
+nav {
+	background-color: #2f2f2f;
+}
+nav ul {
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+	padding: 15px 0;
+}
+nav ul li a {
+	color: #8a8a8a;
+	font: 14px 'PT Sans', sans-serif;
+	display: block;
+	text-decoration: none;
+	width: 120px;
+	text-align: center;
+}
+.current {
+	border-bottom: solid 5px #7cbe5c;
+}
+.current a {
+	color: #7cbe5c;
+}
+
+/*BANNER*/
+article {
+	overflow: hidden;
+}
+.banner {
+	overflow: hidden;
+	background: url(../images/banner.png) no-repeat;
+	color: #ffffff;
+	margin: 30px 30px 0;
+	width: 900px;
+	height: 300px;
+}
+.text-box {
+	width: 500px;
+	height: 60px;
+	background-color: #7cbe5c;
+	opacity: 0.95;
+	position: relative;
+	top: 50px;
+	left: 30px;
+}
+.text-box h1 {
+	font: bold 48px 'PT Sans Narrow', sans-serif;
+	color: #ffffff;
+	text-align: center;
+}
+h2 {
+	font: 18px 'PT Sans Narrow', sans-serif;
+	position: relative;
+	top: -34px;
+	left: 30px;
+}
+
+/*MAIN CONTENT*/
+
+

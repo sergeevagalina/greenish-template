@@ -5,6 +5,9 @@
 	width: 960px;
 	margin: 50px auto 75px;
 }
+a {
+	text-decoration: none;
+}
 
 /*HEADER*/
 header {
@@ -26,7 +29,6 @@ header {
 .hcontacts li a {
 	color: #868686;
 	font: 12px Verdana sans-serif;
-	text-decoration: none;
 	padding-left: 26px;
 }
 .hcontacts li a:hover {
@@ -54,7 +56,6 @@ nav ul li a {
 	color: #8a8a8a;
 	font: 14px 'PT Sans', sans-serif;
 	display: block;
-	text-decoration: none;
 	width: 120px;
 	text-align: center;
 }
@@ -73,7 +74,7 @@ article {
 	overflow: hidden;
 	background: url(../images/banner.png) no-repeat;
 	color: #ffffff;
-	margin: 30px 30px 0;
+	margin: 30px auto 0;
 	width: 900px;
 	height: 300px;
 }
@@ -88,7 +89,7 @@ article {
 }
 .text-box h1 {
 	font: bold 48px 'PT Sans Narrow', sans-serif;
-	color: #ffffff;
+	color: #fff;
 	text-align: center;
 }
 h2 {
@@ -99,5 +100,47 @@ h2 {
 }
 
 /*MAIN CONTENT*/
+.row {
+	margin: 40px auto 0;
+	width: 880px;
+	overflow: hidden;
+}
+section {
+	width: 255px;
+	float: left;
+	font: 14px 'PT Sans', sans-serif;
+	text-align: center;
+}
+.column-center {
+	padding: 0 55px;
+}
+.divider {
+	background: url(../images/line.png) no-repeat center;
+	width: 246px;
+	height: 2px;
+	margin-top: 8px;
+}
+section h3 {
+	font-size: 20px;
+	color: #000;
+}
+section p {
+	margin-top: 20px;
+	color: #868686;
 
-
+}
+section a {
+	display: block;
+}
+.button {
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #868686;
+	width: 95px;
+	margin: 21px auto 3px;
+	padding: 5px 0 4px;
+	border: 1px solid #6aa24f;
+	box-shadow: inset 0 1px 0px #9dce85, 0 1px 3px 0 #000;
+	background-color: #7cbe5c;
+	background-image: linear-gradient(to bottom, #7cbd5c, #6aa24f);
+}

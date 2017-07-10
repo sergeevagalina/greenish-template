@@ -74,7 +74,7 @@ article {
 	overflow: hidden;
 	background: url(../images/banner.png) no-repeat;
 	color: #ffffff;
-	margin: 30px auto 0;
+	margin: 30px auto;
 	width: 900px;
 	height: 300px;
 }
@@ -105,32 +105,43 @@ h2 {
 	width: 880px;
 	overflow: hidden;
 }
-
-section {
-	width: 255px;
-	float: left;
-	font: 14px 'PT Sans', sans-serif;
-	text-align: center;
-}
 .column-center {
-	padding: 0 55px;
+	padding: 0 35px;
 }
 .divider {
 	background: url(../images/line.png) no-repeat center;
-	width: 246px;
+	width: 270px;
 	height: 2px;
 	margin-top: 8px;
+	margin-bottom: 15px;
+	opacity: 0.5;
+}
+section {
+	width: 270px;
+	float: left;
+	font: 14px 'PT Sans', sans-serif;
+	text-align: center;
 }
 section h3 {
 	font-size: 20px;
 	color: #000;
 }
+section h4 {
+	line-height: 1.6;
+}
 section p {
-	margin-top: 20px;
 	color: #868686;
+	padding-bottom: 15px;
 }
 section a {
 	display: block;
+}
+.text-content {
+	height: 170px;
+	overflow: hidden;
+}
+.info .text-content {
+	height: 96px;
 }
 .button {
 	font-size: 13px;
@@ -146,15 +157,15 @@ section a {
 }
 .whole-line {
 	width: 900px;
-	margin: 40px 30px 0;
+	margin: 40px 30px 45px;
 	overflow: hidden;
 }
 .whole-line .divider {
 	width: inherit;
+	margin-bottom: 20px;
 }
 .gallery {
 	overflow: hidden;
-	margin-top: 20px;
 }
 .gallery figure {
 	float: left;
@@ -169,3 +180,18 @@ section a {
 .gallery figure img:hover {
 	border-color: #7cbe5c;
 }
+p span {
+	color: #000;
+}
+blockquote {
+	font-style: italic;
+}
+.clients figure {
+	display: inline-block;
+	float: none;
+	padding-left: 40px;
+}
+.clients figure img {
+	border: none;
+	opacity: 0.5;
+} 

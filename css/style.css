@@ -195,3 +195,45 @@ blockquote {
 	border: none;
 	opacity: 0.5;
 } 
+
+/*FOOTER*/
+footer {
+	overflow: hidden;
+	background-color: #000;
+	font: 11px Tahoma, sans-serif;
+	color: #6d6d6d;
+}
+footer a {
+	color: #6d6d6d;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+footer ul {
+	list-style-type: square;
+	float: left;
+	color: #6d6d6d;
+	padding: 14px 20px 16px 36px;
+	line-height: 1.8;
+}
+footer div {
+	float: right;
+	width: 348px;
+}
+footer div .social {
+	padding-right: 30px;
+	float: right;
+	overflow: hidden;
+}
+footer div figure {
+	float: right;
+	padding: 14px 0 15px 16px;
+	opacity: 0.5;
+}
+footer div p {
+	float: right;
+	font-size: 10px;
+	padding-right: 30px;
+	line-height: 1.5;
+}
+

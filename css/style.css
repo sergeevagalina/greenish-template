@@ -67,6 +67,9 @@ nav ul li a {
 	width: 120px;
 	text-align: center;
 }
+nav ul li a:hover {
+	color: #7cbe5c;
+}
 .current {
 	border-bottom: solid 5px #7cbe5c;
 }

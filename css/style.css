@@ -90,7 +90,7 @@ article {
 	height: 300px;
 }
 .text-box {
-	width: 500px;
+	width: 515px;
 	height: 60px;
 	background-color: #7cbe5c;
 	opacity: 0.95;
@@ -162,7 +162,7 @@ section a {
 	margin: 21px auto 3px;
 	padding: 5px 0 4px;
 	border: 1px solid #6aa24f;
-	box-shadow: inset 0 1px 0px #9dce85, 0 1px 3px 0 #000;
+	box-shadow: inset 0 1px 0 #9dce85, 0 1px 3px 0 #000;
 	background-color: #7cbe5c;
 	background-image: linear-gradient(to bottom, #7cbd5c, #6aa24f);
 }
@@ -229,7 +229,7 @@ footer ul {
 }
 footer div {
 	float: right;
-	width: 348px;
+	width: 360px;
 }
 footer div .social {
 	padding-right: 30px;
@@ -252,12 +252,3 @@ footer div p {
 
 
 
-.Background {
-  background-image: url("Background.png");
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1260px;
-  height: 1651px;
-  z-index: 2;
-}
